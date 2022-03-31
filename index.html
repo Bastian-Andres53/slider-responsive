@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Tipografia -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <!-- JS -->
+    <script defer src="functions.js"></script>
+</head>
+<body>
+    <section id="container-slider">	
+        <a href="javascript: fntExecuteSlide('prev');" class="arrowPrev"><i class="fas fa-chevron-circle-left"></i></a>
+        <a href="javascript: fntExecuteSlide('next');" class="arrowNext"><i class="fas fa-chevron-circle-right"></i></a>
+        <ul class="listslider">
+          <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+          <li><a itlist="itList_1" href="#"></a></li>
+          <li><a itlist="itList_2" href="#"></a></li>
+        </ul>
+        <ul id="slider">
+          <!-- 1 -->
+          <li style="background-image: url('https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=pexels-luis-gomes-546819.jpg&fm=jpg'); z-index:0; opacity: 1;">
+          </li>
+
+          <!-- 2 -->
+          <li style="background-image: url('https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg?cs=srgb&dl=pexels-lukas-574069.jpg&fm=jpg'); ">
+          </li>
+
+          <!-- 3 -->
+          <li style="background-image: url('img/pexels-photo-6927547.jpeg'); ">
+          </li>
+      
+       </ul>
+     </section>
+</body>
+</html>
